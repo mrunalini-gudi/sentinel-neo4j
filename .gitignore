@@ -1,0 +1,28 @@
+# Secrets: never commit keys or passwords
+.env
+.env.*
+!.env.example
+
+# Neo4j Aura credentials file downloaded from the console
+Neo4j-*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+sentinelenv/
+
+# Data files
+*.csv
+*.csv.gz
+*.parquet
+*.jsonl
+*.zip
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
